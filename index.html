@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.html" />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a class="vibrar" href="https://www.aluracursos.com/" target="_blank" rel="noopener noreferrer"><img id="imagenAlura" src="imagenes/Logo.png" alt="imagen del logo" /></a>
+      
+      <img
+        id="imagenOracle"
+        src="imagenes/Oracle-Logo.png"
+        alt="imagen del logo"
+      />
+    </header>
+    <textarea class="textareaBusqueda" id="textarea"   cols="30" rows="30" placeholder="ingrese el texto aquí" ></textarea>
+    <main class="main">
+                
+      <div class="busqueda">
+        <div>
+          <p class="parrafitoBusqueda">
+            <img
+              src="imagenes/exclamation.png"
+              id="imgBusqueda"
+              alt="Exclamation"
+            />
+            Solo letras minúsculas y sin tilde.
+          </p>
+          <button id="botonEncriptar">Encriptar</button>
+          <button id="botonDesencriptar">Desencriptar</button>
+        </div>
+      </div>
+
+      <div class="resultado" id="resultado">
+        <img
+           class="imagenResultado"
+           src="imagenes/Muñeco.png"
+           alt="Imagen de busqueda"
+         />
+        <div>
+         <span class="spanResultado" >Ingresa el texto que desees encriptar o desencriptar</span>
+        </div>
+      </div> 
+      
+    </main>
+
+    <footer>
+      <p>
+        Desarrollado por
+        <a 
+          class="vibrar"
+          href="https://www.linkedin.com/in/yorman-rojas-jkmnkl"
+          rel="noopener noreferrer"
+          ><img id="logoyr" src="imagenes/logoyr.png" alt="imagen del logo" />
+        </a>
+      </p>
+    </footer>
+  </body>
+  <script src="logica_encriptacion.js"></script>
+  
+</html>
